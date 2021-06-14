@@ -1,0 +1,82 @@
+body {
+    background-color: #0b0033;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(#832232, #ce8964);
+}
+
+header img {
+    width: 200px;
+    border: 4px dashed #eaf27c;
+    border-radius: 8px;
+}
+
+header h1 {
+    border: 4px solid #eaf27c;
+    border-radius: 8px;
+    padding: 4px;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 25px;
+    border: 4px solid #eaf27c;
+    border-radius: 8px;
+    padding: 4px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.app {
+    background-color: white;
+    width: 300px;
+    padding-bottom: 4px;
+    position: relative;
+    margin-bottom: 1em;
+    width: calc(50% - 1em);
+    border: 4px double #370031;
+    border-radius: 4px;
+}
+
+#first {
+    width: 100%;
+}
+
+#first img {
+    width: 75%;
+}
+
+.app h3 {
+    text-align: center;
+    color: #eaf27c;
+    background-color: #370031;
+    font-size: 1.25em;
+    margin: 0 1em;
+    position: relative;
+    top: -.5em;
+}
+
+.app p {
+    color:black;
+    margin: 8px;
+}
+
+article img {
+    display: inline-block;
+    margin: 0 auto;
+}
