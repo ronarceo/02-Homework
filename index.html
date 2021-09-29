@@ -1,27 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <title>Ronald Arceo Portfolio</title>
 </head>
 
 <body>
     <!--header contains my picture, name and nav bar-->
     <header>
-        <figure>
-            <img src="assets/profile pic.jpg" alt="Profile">
-            <figcaption><h1>Ronald Arceo</h1></figcaption>
-        </figure>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <figure>
+                    <img src="assets/profile pic.jpg" alt="Profile">
+                    <figcaption>
+                        <h1>Ronald Arceo</h1>
+                    </figcaption>
+                </figure>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    </li>
+                </div>
+            </div>
         </nav>
     </header>
 
@@ -29,33 +44,49 @@
     <main>
         <h2>About:</h2>
         <section id="about">
-            <p>Full stack web developer that specializes in HTML, CSS, JavaScript on the front end and Node, Express, and SQL on the back end. I am currently working as a healthcare interpreter, interpreting and translating Tagalog/Filipino in medical settings.</p>
+            <p>Full stack web developer that specializes in HTML, CSS, JavaScript on the front end and Node, Express,
+                and SQL on the back end. I am currently working as a healthcare interpreter, interpreting and
+                translating Tagalog/Filipino in medical settings.</p>
         </section>
         <h2>Projects:</h2>
         <section id="projects">
-                <div class="app" id="first">
-                    <h3>Weather Dashboard</h3>
-                    <img src="assets/weatherdashboard.png" alt="Weather Dashboard">
-                    <p>This web app displays weather outlooks for multiple cities allowing travelers to plan their trips accordingly.</p>
-                    <p>Link to application: <a href="https://ronarceo.github.io/Weather-Dashboard/">https://ronarceo.github.io/Weather-Dashboard/</a></p>
-                    <p>Link to repository: <a href="https://github.com/ronarceo/Weather-Dashboard">https://github.com/ronarceo/Weather-Dashboard</a></p>
-                </div>
-        
-                <div class="app">
-                    <h3>Work Day Scheduler</h3>
-                    <img src="assets/workdayscheduler.png" alt="Work Day Scheduler">
-                    <p>A simple calendar application that allows a user to save events for each hour of the day.</p>
-                    <p>Link to application: <a href="https://ronarceo.github.io/Work-Day-Scheduler/">https://ronarceo.github.io/Work-Day-Scheduler/</a></p>
-                    <p>Link to repository: <a href="https://github.com/ronarceo/Work-Day-Scheduler">https://github.com/ronarceo/Work-Day-Scheduler</a></p>
-                </div>
-        
-                <div class="app">
-                    <h3>Password Generator</h3>
-                    <a href="#"><img src="assets/passwordgenerator.png" alt="Password Generator"></a>
-                    <p>Creates a random password for the user with their choice of length and the type of characters included in the password.</p>
-                    <p>Link to application: <a href="https://ronarceo.github.io/Password-Generator/">https://ronarceo.github.io/Password-Generator/</a></p>
-                    <p>Link to repository: <a href="https://github.com/ronarceo/Password-Generator">https://github.com/ronarceo/Password-Generator</a></p>
-                </div>
+            <div class="app" id="first">
+                <h3>Weather Dashboard</h3>
+                <img src="assets/weatherdashboard.png" alt="Weather Dashboard">
+                <p>This web app displays weather outlooks for multiple cities allowing travelers to plan their trips
+                    accordingly.</p>
+                <p>Link to application: <a
+                        href="https://ronarceo.github.io/Weather-Dashboard/">https://ronarceo.github.io/Weather-Dashboard/</a>
+                </p>
+                <p>Link to repository: <a
+                        href="https://github.com/ronarceo/Weather-Dashboard">https://github.com/ronarceo/Weather-Dashboard</a>
+                </p>
+            </div>
+
+            <div class="app">
+                <h3>Work Day Scheduler</h3>
+                <img src="assets/workdayscheduler.png" alt="Work Day Scheduler">
+                <p>A simple calendar application that allows a user to save events for each hour of the day.</p>
+                <p>Link to application: <a
+                        href="https://ronarceo.github.io/Work-Day-Scheduler/">https://ronarceo.github.io/Work-Day-Scheduler/</a>
+                </p>
+                <p>Link to repository: <a
+                        href="https://github.com/ronarceo/Work-Day-Scheduler">https://github.com/ronarceo/Work-Day-Scheduler</a>
+                </p>
+            </div>
+
+            <div class="app">
+                <h3>Password Generator</h3>
+                <a href="#"><img src="assets/passwordgenerator.png" alt="Password Generator"></a>
+                <p>Creates a random password for the user with their choice of length and the type of characters
+                    included in the password.</p>
+                <p>Link to application: <a
+                        href="https://ronarceo.github.io/Password-Generator/">https://ronarceo.github.io/Password-Generator/</a>
+                </p>
+                <p>Link to repository: <a
+                        href="https://github.com/ronarceo/Password-Generator">https://github.com/ronarceo/Password-Generator</a>
+                </p>
+            </div>
         </section>
     </main>
 
@@ -66,14 +97,19 @@
             <ul>
                 <li>Email:<a href="mailto:ronaldmarceo@gmail.com"> ronaldmarceo@gmail.com</a></li>
                 <li>Github:<a href="https://github.com/ronarceo" target="_blank"> https://github.com/ronarceo</a></li>
-                <li>LinkedIn:<a href="https://www.linkedin.com/in/ronald-arceo" target ="_blank"> https://www.linkedin.com/in/ronald-arceo</a></li>
-                <li>Resume: <a href="https://drive.google.com/file/d/1J3mo1NYxxnSfWSmxJsUXBqxlAdZFPruC/view?usp=sharing" target="_blank">https://drive.google.com/</a></li>
+                <li>LinkedIn:<a href="https://www.linkedin.com/in/ronald-arceo" target="_blank">
+                        https://www.linkedin.com/in/ronald-arceo</a></li>
+                <li>Resume: <a href="https://drive.google.com/file/d/1J3mo1NYxxnSfWSmxJsUXBqxlAdZFPruC/view?usp=sharing"
+                        target="_blank">https://drive.google.com/</a></li>
             </ul>
         </section>
     </footer>
 
     <!--script link to bootstrap-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
 
 </body>
+
 </html>
